@@ -5,13 +5,13 @@ Player::Player()
 {
 	brbod = 0;
 	Name = " ";
-	cout << "konstruktor" << endl;
+	cout << "konstruktor za igraca" << endl;
 }
 
 Player::~Player()
 {
-	Name.clear();
-	cout << "destruktor" << endl;
+	
+	cout << "desc called player" << endl;
 }
 
 void Player::setName(string a)

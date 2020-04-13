@@ -8,7 +8,10 @@ card::card()
 	kind = ' ';
 }
 
-
+card::~card()
+{
+	cout << "desc called card";
+}
 
 void card::setcardnum(int number)
 {

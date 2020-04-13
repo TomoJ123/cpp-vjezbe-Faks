@@ -15,6 +15,7 @@ class card
 
 public:
     card();
+    ~card();
     void setcardnum(int);
     void setcardkind(char);
     int getcardnum();

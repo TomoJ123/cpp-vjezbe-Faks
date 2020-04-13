@@ -15,7 +15,7 @@ public:
 
 class Board
 {
-	char* arr;
+	char** arr;
 	int height;
 	int width;
 	char edge;
