@@ -66,7 +66,10 @@ Board::Board(int h, int w, char edge)
 
 Board::~Board()
 {
-	delete[] arr;
+	for(int i = 0; i < height; ++i) {
+    		delete [] arr[i];
+	}
+	delete [] arr;
 	cout << "destruktor";
 }
 Board::Board(const Board& otherobject) {
